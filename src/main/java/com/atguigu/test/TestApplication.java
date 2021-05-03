@@ -15,4 +15,8 @@ public class TestApplication {
     public User user(){
         return new User();
     }
+
+    class Type_{
+
+    }
 }
