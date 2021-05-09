@@ -16,12 +16,11 @@ public class TestApplication {
         return new User();
     }
 
-    class Type_{
 
-    }
 
 
     public Integer add(Integer n1,Integer n2){
+        System.out.println("----");
         return n1+n2;
     }
 }
