@@ -13,6 +13,8 @@ public class TestApplication {
     }
     @Bean
     public User user(){
+        
+        System.out.println("/----/");
         return new User();
     }
 
@@ -20,7 +22,6 @@ public class TestApplication {
 
 
     public Integer add(Integer n1,Integer n2){
-        System.out.println("----");
         return n1+n2;
     }
 }
